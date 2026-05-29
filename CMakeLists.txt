@@ -8,6 +8,7 @@ add_executable(pcInfoTool
     src/main.cpp
     src/cpuModel.cpp
     src/cpuInfo.cpp
+    src/memoryInfo.cpp
 )
 
 target_include_directories(pcInfoTool PRIVATE ${CMAKE_SOURCE_DIR}/include)
