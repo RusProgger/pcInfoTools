@@ -1,9 +1,11 @@
 #include <iostream>
 #include <windows.h>
+#include "../include/cpuModel.h"
 
 int main() {
 
-    
+     std::cout << "CPU Model: " << getCpuModel() << std::endl;
+
     // CPU info
     SYSTEM_INFO cpuInfo;
     GetSystemInfo(&cpuInfo);
