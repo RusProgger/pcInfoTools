@@ -7,6 +7,7 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 add_executable(pcInfoTool
     src/main.cpp
     src/cpuModel.cpp
+    src/cpuInfo.cpp
 )
 
 target_include_directories(pcInfoTool PRIVATE ${CMAKE_SOURCE_DIR}/include)
