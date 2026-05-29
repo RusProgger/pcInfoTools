@@ -2,7 +2,7 @@
 
 ## 🇬🇧 English
 
-### 📌 Description
+### 📌 Description:
 This is a simple C++ console application that uses WinAPI to retrieve and display basic information about the computer system.
 
 ### 💻 What the program shows:
@@ -11,20 +11,20 @@ This is a simple C++ console application that uses WinAPI to retrieve and displa
 - Total amount of RAM
 - Windows operating system version
 
-## ⚙️ Build & Run
+## ⚙️ Build & Run:
 
-### Requirements
+### Requirements:
 - C++ compiler (clang++ / g++ / MSVC)
 - CMake (>= 3.10)
 
-### Build
+### Build:
 
 ```bash
 cmake -S . -B build
 cmake --build build
 ```
 
-### Run program
+### Run program:
 
 
 ```bash
