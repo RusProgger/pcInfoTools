@@ -22,10 +22,14 @@ This is a simple C++ console application that uses WinAPI to retrieve and displa
 ```bash
 cmake -S . -B build
 cmake --build build
+```
 
 ### Run program
+
+
 ```bash
 build\pcInfoTool.exe
+```
 
 ### 🎯 Purpose
 This project is created for learning WinAPI and understanding how Windows system information can be accessed using C++.
