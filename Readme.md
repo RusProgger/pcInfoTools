@@ -26,7 +26,6 @@ cmake --build build
 
 ### Run program:
 
-
 ```bash
 build\pcInfoTool.exe
 ```
@@ -47,6 +46,26 @@ This project is created for learning WinAPI and understanding how Windows system
 - Объём оперативной памяти (RAM)
 - Версия операционной системы Windows
 
+## ⚙️ Сборка и запуск:
+
+### Требования:
+
+- Компилятор С++ (clang++ / g++ / MSVC)
+- CMake (>= 3.10)
+
+### Сборка:
+
+```bash
+cmake -S . -B build
+cmake --build build
+```
+
+### Запуск программы:
+
+```bash
+build\pcInfoTool.exe
+```
+
 ### 🎯 Назначение
 Проект создан для изучения WinAPI и понимания того, как можно получать системную информацию Windows с помощью C++.
 
@@ -63,18 +82,28 @@ This project is created for learning WinAPI and understanding how Windows system
 - Обсяг оперативної пам’яті (RAM)
 - Версія операційної системи Windows
 
+## ⚙️ Збірка та запуск:
+
+### Вимоги:
+- Компілятор C++(clang++ / g++ / MSVC)
+- CMake (>= 3.10)
+
+### Збірка:
+
+```bash
+cmake -S . -B build
+cmake --build build
+```
+
+### Запуск програми:
+
+
+```bash
+build\pcInfoTool.exe
+```
+
 ### 🎯 Призначення
 Проєкт створено для вивчення WinAPI та розуміння того, як отримувати системну інформацію Windows за допомогою C++.
 
 ---
 
-## ⚙️ Build & Run
-
-### Requirements
-- C++ compiler (clang++ / g++ / MSVC)
-- CMake (>= 3.10)
-
-### Build
-```bash
-cmake -S . -B build
-cmake --build build
