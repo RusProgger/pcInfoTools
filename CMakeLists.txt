@@ -4,4 +4,7 @@ project(pcInfoTool)
 set(CMAKE_CXX_STANDARD 20)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
-add_executable(pcInfoTool src/main.cpp)
+add_executable(pcInfoTool
+    src/main.cpp
+    src/cpuModel.cpp
+)
