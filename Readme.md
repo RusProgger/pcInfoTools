@@ -11,6 +11,22 @@ This is a simple C++ console application that uses WinAPI to retrieve and displa
 - Total amount of RAM
 - Windows operating system version
 
+## ⚙️ Build & Run
+
+### Requirements
+- C++ compiler (clang++ / g++ / MSVC)
+- CMake (>= 3.10)
+
+### Build
+
+```bash
+cmake -S . -B build
+cmake --build build
+
+### Run program
+```bash
+build\pcInfoTool.exe
+
 ### 🎯 Purpose
 This project is created for learning WinAPI and understanding how Windows system information can be accessed using C++.
 
@@ -45,3 +61,16 @@ This project is created for learning WinAPI and understanding how Windows system
 
 ### 🎯 Призначення
 Проєкт створено для вивчення WinAPI та розуміння того, як отримувати системну інформацію Windows за допомогою C++.
+
+---
+
+## ⚙️ Build & Run
+
+### Requirements
+- C++ compiler (clang++ / g++ / MSVC)
+- CMake (>= 3.10)
+
+### Build
+```bash
+cmake -S . -B build
+cmake --build build
