@@ -18,5 +18,11 @@ int main() {
     // OS Info
     getOsInfo();
 
+    std::cout << "\n-------------------------------\n";
+
+    // pause
+    std::cout << "Press Enter to continue...";
+    std::cin.get();
+
     return 0;
 }
