@@ -26,6 +26,7 @@ void getMainHeaderWelcome(const std::string& author, const std::string& date, co
     };
 
     std::cout << std::string(width, '*') << "\n";
+    // padding top
     std::cout << "*" << std::string(width - 2, ' ') << "*\n";
 
     printLine(outAuthor);
