@@ -7,7 +7,7 @@
 
 int main() {
 
-    // model cpu 
+    // Model cpu 
     std::cout << "CPU Model: " << getCpuModel() << std::endl;
     // cpu info
     getCpuInfo();
