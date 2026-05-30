@@ -32,6 +32,7 @@ void getMainHeaderWelcome(const std::string& author, const std::string& date, co
     printLine(outDate);
     printLine(outVersion);
 
+    // padding bottom
     std::cout << "*" << std::string(width - 2, ' ') << "*\n";
     std::cout << std::string(width, '*') << "\n";
 };
