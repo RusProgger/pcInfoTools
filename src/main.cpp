@@ -12,7 +12,7 @@ int main() {
     // cpu info
     getCpuInfo();
     
-    // memory info
+    // Memory info
     getMemoryInfo();
 
     // OS Info
