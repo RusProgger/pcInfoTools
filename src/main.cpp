@@ -3,9 +3,13 @@
 #include "../include/cpuModel.h"
 #include "../include/cpuinfo.h"
 #include "../include/memoryInfo.h"
-#include <../include/osinfo.h>
+#include "../include/osinfo.h"
+#include "..include/header.h"
 
 int main() {
+
+    // Output info 
+
 
     // Model cpu 
     std::cout << "CPU Model: " << getCpuModel() << std::endl;
