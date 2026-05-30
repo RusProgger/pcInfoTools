@@ -1,0 +1,36 @@
+#include <iostream>
+#include <string>
+#include <algorithm>
+#include <initializer_list>
+#include "header.h"
+
+
+void getMainHeaderWelcome(const std::string& author, const std::string& date, const std::string& version) {
+    const std::string outAuthor = "Author: " + author;
+    const std::string outDate = "Date: " + date;
+    const std::string outVersion = "Version: " + version;
+
+    int width = std::max({outAuthor.length(), outDate.length(), outVersion.length()}) + 8;
+
+    auto printLine = [&](const std::string& text)
+    {
+        int padding = width - text.length() - 2;
+        int left = padding / 2;
+        int right = padding - left;
+
+        std::cout << "*"
+                  << std::string(left, ' ')
+                  << text
+                  << std::string(right, ' ')
+                  << "*\n";
+    };
+
+    std::cout << std::string(width, '*') << "\n";
+
+    printLine(outAuthor);
+    printLine(outDate);
+    printLine(outVersion);
+
+    std::cout << std::string(width, '*') << "\n";
+};
+
