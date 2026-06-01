@@ -5,12 +5,13 @@
 #include "header.h"
 
 
-void getMainHeaderWelcome(const std::string& author, const std::string& date, const std::string& version) {
-    const std::string outAuthor = "Author: " + author;
+void getMainHeaderWelcome(const std::string& name, const std::string& date, const std::string& version, const std::string& author) {
+    const std::string outName = "Name: " + name;
     const std::string outDate = "Date: " + date;
     const std::string outVersion = "Version: " + version;
+    const std::string outAuthor = "Author: " + author;
 
-    int width = std::max({outAuthor.length(), outDate.length(), outVersion.length()}) + 8;
+    int width = std::max({outAuthor.length(), outDate.length(), outVersion.length(), outAuthor.length()}) + 8;
 
     auto printLine = [&](const std::string& text)
     {
@@ -29,9 +30,10 @@ void getMainHeaderWelcome(const std::string& author, const std::string& date, co
     // padding top
     std::cout << "*" << std::string(width - 2, ' ') << "*\n";
 
-    printLine(outAuthor);
+    printLine(outName);
     printLine(outDate);
     printLine(outVersion);
+    printLine(outAuthor);
 
     // padding bottom
     std::cout << "*" << std::string(width - 2, ' ') << "*\n";
