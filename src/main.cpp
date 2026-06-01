@@ -13,6 +13,8 @@ int main() {
     getMainHeaderWelcome("PcInfoTools", "31/05/2026", "1.001", "Ruslan Voronenko");
     std::cout << "\n";
 
+    getUser();
+
     // Model cpu 
     std::cout << "CPU Model: " << getCpuModel() << std::endl;
     // CPU info
