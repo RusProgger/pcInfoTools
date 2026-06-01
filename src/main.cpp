@@ -9,7 +9,7 @@
 int main() {
 
     // Output info 
-    getMainHeaderWelcome("Ruslan Voronenko", "31/05/2026", "1.001");
+    getMainHeaderWelcome("PcInfoTools", "31/05/2026", "1.001", "Ruslan Voronenko");
     std::cout << "\n";
 
     // Model cpu 
