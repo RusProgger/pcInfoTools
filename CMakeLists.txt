@@ -11,6 +11,7 @@ add_executable(pcInfoTool
     src/memoryInfo.cpp
     src/osInfo.cpp
     src/mainHeaderWelcome.cpp
+    src/user.cpp
 )
 
 target_include_directories(pcInfoTool PRIVATE ${CMAKE_SOURCE_DIR}/include)
