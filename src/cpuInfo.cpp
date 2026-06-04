@@ -9,7 +9,7 @@ void getCpuInfo() {
 
     GetSystemInfo(&cpuInfo);
 
-    std::cout << "CPU: "
+    std::cout << "CPU Threads: "
               << cpuInfo.dwNumberOfProcessors
               << std::endl;
 
