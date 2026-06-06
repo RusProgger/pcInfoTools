@@ -34,7 +34,7 @@ int main() {
     std::cout << "\n-------------------------------\n";
 
     // pause
-    std::cout << "Press Enter to continue...";
+    std::cout << "Press Enter to exit...";
     std::cin.get();
 
     return 0;
