@@ -14,7 +14,7 @@ int main() {
     std::cout << "\n\n\n\n";
 
     std::cout << "System Information\n";
-    std::cout << "-------------------------------------------------\n"
+    std::cout << "-------------------------------------------------\n";
 
 
     // info user 
