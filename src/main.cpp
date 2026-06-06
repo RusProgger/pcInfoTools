@@ -11,10 +11,10 @@ int main() {
 
     // Output info 
     getMainHeaderWelcome("PcInfoTools", "31/05/2026", "1.001", "Ruslan Voronenko");
-    std::cout << "\n\n\n\n";
+    std::cout << "\n\n";
 
     std::cout << "System Information\n";
-    std::cout << "-------------------------------------------------\n";
+    std::cout << "-------------------------------------------------\n\n";
 
 
     // info user 
