@@ -3,7 +3,7 @@
 #include "osInfo.h"
 
 void getOsInfo() {
-    // os info
+    // operation info 
 
     OSVERSIONINFOEX osVer;
     ZeroMemory(&osVer, sizeof(OSVERSIONINFOEX));
