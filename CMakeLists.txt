@@ -17,6 +17,6 @@ add_executable(pcInfoTool
 target_include_directories(pcInfoTool PRIVATE ${CMAKE_SOURCE_DIR}/include)
 
 #  fold release
-set_target_properties(BinaryLab PROPERTIES
+set_target_properties(pcInfoTool PROPERTIES
     RUNTIME_OUTPUT_DIRECTORY ${CMAKE_SOURCE_DIR}/release
 )
