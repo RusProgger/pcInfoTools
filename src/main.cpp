@@ -40,7 +40,7 @@ int main() {
     // OS Info
     getOsInfo();
 
-    std::cout << "\n-------------------------------\n";
+    std::cout << "-------------------------------------------------\n";
 
     // pause
     std::cout << "Press Enter to exit...";
