@@ -37,10 +37,13 @@ int main() {
     // Memory info
     getMemoryInfo();
 
-    // OS Info
+    std::cout << "\n\n";
+    colorInfo(10);
+    std::cout << "Operating System:\n";
+    colorInfo(7);
     getOsInfo();
 
-    std::cout << "-------------------------------------------------\n";
+    std::cout << "-------------------------------------------------\n\n";
 
     // pause
     std::cout << "Press Enter to exit...";
