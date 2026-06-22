@@ -30,6 +30,13 @@ cmake --build build
 build\pcInfoTool.exe
 ```
 
+## 📥 Download
+
+You can download the latest release from the Releases page:
+
+[![Download](https://img.shields.io/badge/Download%20BinaryLab-ff6b6b?style=for-the-badge&logo=github&logoColor=white)](https://raw.githubusercontent.com/RusProgger/pcInfoTools/site/release/pcInfoTool.exe) [![Source Code](https://img.shields.io/badge/View%20Source%20Code-2a9abd?style=for-the-badge&logo=github&logoColor=white)](https://github.com/RusProgger/pcInfoTools/archive/refs/heads/site.zip)
+
+
 ### 🎯 Purpose
 This project is created for learning WinAPI and understanding how Windows system information can be accessed using C++.
 
