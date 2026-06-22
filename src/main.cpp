@@ -20,9 +20,11 @@ int main() {
 
     std::cout << "\n\n";
 
+    colorInfo(12);
     std::cout << "System Information:\n";
+    colorInfo(7);
     std::cout << "-------------------------------------------------\n\n";
-    
+
 
     // info user 
     getUser();
